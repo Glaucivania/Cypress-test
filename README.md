@@ -2,6 +2,24 @@
 
 Projeto de automação de testes E2E usando Cypress para o site [saucedemo.com](https://www.saucedemo.com/).
 
+##  Tecnologias Utilizadas
+
+* **Cypress**: Framework de automação de testes E2E.
+* **JavaScript**: Linguagem base do projeto.
+* **Node.js**: Ambiente de execução.
+
+##  Casos de Teste Automatizados
+
+O foco deste projeto é garantir o fluxo principal de compra no site **SauceDemo**.
+
+### Autenticação (login.cy.js)
+- [x] **Login com sucesso:** Valida o acesso com um usuário padrão e redirecionamento para a página de produtos.
+- [x] **Login inválido:** Verifica a exibição da mensagem de erro ao inserir credenciais incorretas.
+
+### Carrinho e Compra (carrinho.cy.js)
+- [x] **Adicionar produto:** Valida se o badge do carrinho atualiza corretamente ao adicionar um item.
+- [x] **Persistência do item:** Verifica se o produto selecionado permanece visível na página de checkout.
+
 ##  Estrutura do projeto
 
 - `cypress.config.js`: configuração do Cypress.
@@ -25,7 +43,7 @@ cd c:/QA/Cypress
 npm install
 ```
 
-## ▶ Executar testes
+##  Executar testes
 
 ### 1) Abrir UI do Cypress
 
